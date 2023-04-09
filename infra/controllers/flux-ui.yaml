@@ -19,7 +19,7 @@ spec:
   chart:
     spec:
       chart: weave-gitops
-      version: "v0.20.x"
+      version: "4.x"
       sourceRef:
         kind: HelmRepository
         name: flux-ui

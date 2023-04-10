@@ -14,7 +14,7 @@ metadata:
   name: metrics-server
   namespace: kube-system
 spec:
-  interval: 60m
+  interval: 1m
   chart:
     spec:
       chart: metrics-server

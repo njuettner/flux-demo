@@ -23,3 +23,6 @@ spec:
         kind: HelmRepository
         name: metrics-server
       interval: 12h
+  values:
+    apiService:
+      insecureSkipTLSVerify: true

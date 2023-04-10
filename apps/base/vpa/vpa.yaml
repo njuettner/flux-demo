@@ -13,6 +13,9 @@ metadata:
   name: vertical-pod-autoscaler
   namespace: kube-system
 spec:
+  dependsOn:
+  - name: metrics-server
+    namespace: kube-system
   interval: 30m
   chart:
     spec:
